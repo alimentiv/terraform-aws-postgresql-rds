@@ -52,7 +52,7 @@ resource "aws_db_instance" "postgresql" {
   max_allocated_storage = "${var.max_allocated_storage}"
   performance_insights_enabled = "${var.performance_insights_enabled}"
   performance_insights_retention_period = "${var.performance_insights_retention_period}"
-  performance_insights_kms_key_id = null
+  
 
   tags {
     Name        = "DatabaseServer"

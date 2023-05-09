@@ -121,3 +121,23 @@ variable "ok_actions" {
 variable "insufficient_data_actions" {
   type = "list"
 }
+
+variable "max_allocated_storage" {
+  default     = 32
+}
+
+variable "deletion_protection" {
+  default     = false
+}
+
+variable "performance_insights_enabled" {
+  default     = false
+}
+
+variable "performance_insights_retention_period" {
+  default     = 7
+}
+
+variable "performance_insights_kms_key_id" {
+  default     = ""
+}
