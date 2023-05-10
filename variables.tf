@@ -123,21 +123,21 @@ variable "insufficient_data_actions" {
 }
 
 variable "max_allocated_storage" {
-  default     = 32
+  default = 32
 }
 
 variable "deletion_protection" {
-  default     = false
+  default = false
 }
 
 variable "performance_insights_enabled" {
-  default     = false
+  default = false
 }
 
 variable "performance_insights_retention_period" {
-  default     = 7
+  default = 7
 }
 
 variable "performance_insights_kms_key_id" {
-  default     = ""
+  default = ""
 }
