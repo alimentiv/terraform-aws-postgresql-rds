@@ -123,7 +123,7 @@ variable "insufficient_data_actions" {
 }
 
 variable "max_allocated_storage" {
-  default = 32
+  default = 0
 }
 
 variable "deletion_protection" {
